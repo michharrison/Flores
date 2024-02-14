@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,900&display=swap');
+*{
+    font-family: 'Poppins',cursive;
+}
+body{
+    color: azure;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+
+.description{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -180%);
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.button a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: #111;
+}
+
+
+    .description{
+        font-size: 1rem;
+    }
+    
+    .button a{
+        font-size: .5rem;
+    }
+
+
+.description{
+
+    color: #ADD8E6;
+}
+
+
+  
+
+  .botones {
+    display: flex;
+    justify-content: space-between;
+    
+    
+  }
+  
+ 
+  .yes-button {
+   
+    background-color: #008d00; /* Color */
+    float: right;
+    margin-right: 20px;
+    border: none; /* Sin bordes */
+    padding: 10px 20px; /* Ajusta el relleno según tu preferencia */
+    font-size: 18px; /* Tamaño de fuente */
+    cursor: pointer;
+    border-radius: 25px; /* Esquinas redondeadas */
+
+
+  }
+
+  .yes-button:hover {
+    
+    background-color:#00cd00; /* Cambia el color de fondo al pasar el mouse a naranja */
+    box-shadow: 0 0 10px #7eff5c, 0 0 20px #7eff5c, 0 0 30px #7eff5c; /* Efecto de resplandor amarillo */
+  }
+  
+  
+
+  .no-button {
+    background-color: #e61919; /* Color */
+    float: left;
+    margin-left: 20px;
+    border: none; /* Sin bordes */
+    padding: 10px 20px; /* Ajusta el relleno según tu preferencia */
+    font-size: 18px; /* Tamaño de fuente */
+    cursor: pointer;
+    border-radius: 25px; /* Esquinas redondeadas */
+
+
+  }
+
+  .no-button:hover {
+    
+    background-color:#e62e1b; /* Cambia el color de fondo al pasar el mouse a naranja */
+    box-shadow: 0 0 10px #f80000, 0 0 20px #f80000, 0 0 30px #f80000; /* Efecto de resplandor amarillo */
+  }
+
+   
